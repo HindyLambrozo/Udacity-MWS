@@ -26,7 +26,7 @@ const elementRestaurantsList = document.getElementById('restaurants-list');
  * Fetch neighborhoods and cuisines.
  * https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded
  */
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', {passive: true}, (event) => {
   loadMainNetworkFirst();
 });
 
