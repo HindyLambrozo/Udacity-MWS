@@ -1,76 +1,58 @@
 {
-  "name": "mws-restaurant-stage-2",
-  "version": "1.0.0",
-  "description": "MWS webapp Stage 2",
-  "main": "js/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run copy && workbox injectManifest workbox-config.js",
-    "start": "node server.js"
+  "name": "mwsrestaurantstage1july18",
+  "private": true,
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HindyLambrozo/mws-restaurant-stage-1",
-    "author": "Hindy Lambrozo",
-    "license": "ISC"
-  },
+  
   "devDependencies": {
-    "babel-core": "^6.4.0",
+
     "babel-loader": "^7.1.4",
-    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.5.2",
     "browser-sync": "^2.2.1",
-    "copyfiles": "1.2.0",
     "del": "^2.2.0",
-    "grunt": "^1.0.3",
-    "grunt-serve": "^0.1.6",
+    "gulp": "^3.9.0",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.0.1",
-    "gulp-babel": "^6.1.3",
-    "gulp-cache": "^0.4.2",
-    "gulp-clean-css": "^3.9.4",
-    "gulp-concat": "^2.6.1",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-babel": "^6.1.1",
+    "gulp-cache": "^0.2.10",
     "gulp-connect": "^2.2.0",
     "gulp-cssnano": "^2.0.0",
     "gulp-eslint": "^3.0.0",
-    "gulp-filter": "^4.0.0",
+    "gulp-filter": "^2.0.2",
     "gulp-htmlmin": "^3.0.0",
     "gulp-if": "^2.0.2",
-    "gulp-imagemin": "^3.0.1",
+    "gulp-imagemin": "^2.3.0",
     "gulp-jshint": "^1.11.1",
     "gulp-karma": "0.0.4",
-    "gulp-load-plugins": "^1.2.4",
+    "gulp-load-plugins": "^0.10.0",
     "gulp-minify-css": "^1.2.0",
     "gulp-ng-annotate": "^1.0.0",
     "gulp-plumber": "^1.0.1",
-    "gulp-responsive": "^2.10.0",
     "gulp-rev": "^5.0.1",
     "gulp-rev-replace": "^0.4.2",
-    "gulp-sass": "^3.0.0",
+    "gulp-sass": "^2.0.4",
     "gulp-size": "^2.1.0",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^2.0.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^1.2.0",
     "gulp-useref": "^3.0.0",
     "gulp-util": "^3.0.6",
     "gulp-watch": "^4.2.4",
-    "gulp-webp": "^3.0.0",
-    "imagemin": "^5.3.1",
-    "imagemin-webp": "^4.1.0",
     "jshint-stylish": "^1.0.0",
     "lazypipe": "^0.2.4",
     "main-bower-files": "^2.5.0",
-    "npm-install-webpack-plugin": "^4.0.5",
     "open": "0.0.5",
     "rimraf": "^2.4.0",
+    "run-sequence": "^1.1.1",
     "run-sequence": "^1.2.2",
-    "wiredep": "^4.0.0",
-    "workbox-cli": "3.0.0-alpha.4"
+    "wiredep": "^2.2.2",
+    "babel-core": "^6.26.3",
   },
-  "eslintConfig": {
+  "engines": {
+    "node": ">=0.10.0"
+  },
+   "eslintConfig": {
     "env": {
-      "es6": true,
       "node": true,
       "browser": true
     },
@@ -83,22 +65,17 @@
     "rules": {
       "quotes": [
         2,
-        "single"
-      ]
+        "double"
+      ],
+      "strict": "never"
     }
   },
   "dependencies": {
     "babel-eslint": "^8.2.3",
-    "babelify": "^8.0.0",
     "browserify": "^16.2.0",
-    "express": "4.15.4",
-    "google-maps-react": "^2.0.2",
     "gulp-concat": "^2.6.1",
-    "gulp-replace": "^1.0.0",
-    "idb": "^2.1.3",
-    "karma": "^2.0.4",
-    "vinyl-buffer": "^1.0.1",
-    "vinyl-source-stream": "^2.0.0",
-    "workbox-build": "^3.4.1"
+    "idb": "^2.1.1",
+    "grunt": "^1.0.3"
   }
 }
+

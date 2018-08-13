@@ -73,7 +73,7 @@ const loadMainNetworkFirst = () => {
 
 /**
  * Update UI of Neighborhoods select element.
- */
+ */-
 const updateNeighborhoodsUI = (result) => {
   // Get all neighborhoods from all restaurants.
   let allNeighborhoods = result.map((v, i) => result[i].neighborhood);
