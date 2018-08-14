@@ -106,9 +106,39 @@ video {
 .google-maps {
   width: 100%;
 	height: 40vh;
+  display:none;
+}
+.btn_toggle{
+  position: absolute;
+  width: 30px;
+  right: 10px;
 }
 
+.btn_map img{
+  width: 100%;
+  position: center;
+}
 
+#static_map{
+  width: 100%;
+  max-width: 600px;
+  margin-top: 15px;
+}
+
+#map-container;{background:none repeat scroll 0 0;height:55vw;right:0;order:1;width:calc((100% - 80px) / 2)}.inside}
+#map-container,
+#reviews-container;{width:100% !important}
+
+.show-btn-container{
+  padding: 10px;
+  button {
+    color: white;
+    background: #AD5C00;
+  }
+
+    .show-btn-container;
+    {padding:10px}
+    button{color:white;background:#AD5C00;border:none;padding:10px;width:180px;font-size:14px;text-transform:uppercase}.hidden{visibility:hidden;transition:all .5s}.show{visibility:visible;transition:all .5s}
 /* -------------------------------------------------------------------------- */
 
 .restaurants-filter {

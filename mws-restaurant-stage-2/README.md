@@ -29,10 +29,10 @@ Example using Python:
 
 ```
 pipenv --python 3.6
-pipenv run python -m http.server 8887
+pipenv run python -m http.server 8000
 ```
 
-Open url [localhost:8887](localhost:8887) in your favorite browser.
+Open url [localhost:8000](localhost:8000) in your favorite browser.
 
 ## Where can I learn more?
 Follow the awesome [Udacity Mobile Web Specialist Nanodegree](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024)!

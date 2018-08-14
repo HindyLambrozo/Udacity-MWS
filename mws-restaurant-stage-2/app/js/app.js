@@ -26,8 +26,9 @@ const elementRestaurantsList = document.getElementById('restaurants-list');
  * Fetch neighborhoods and cuisines.
  * https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded
  */
-document.addEventListener('DOMContentLoaded', {passive: true}, (event) => {
-  loadMainNetworkFirst();
+document.addEventListener('DOMContentLoaded', (event) => {
+  loadMainNetworkFirst()
+
 });
 
 /**
@@ -73,7 +74,7 @@ const loadMainNetworkFirst = () => {
 
 /**
  * Update UI of Neighborhoods select element.
- */-
+ */
 const updateNeighborhoodsUI = (result) => {
   // Get all neighborhoods from all restaurants.
   let allNeighborhoods = result.map((v, i) => result[i].neighborhood);
@@ -356,6 +357,7 @@ window.initMap = () => {
   // Refresh all restaurants.
   refreshRestaurantsNetworkFirst();
 }
+
 
 /**
  * Add markers for current restaurants to the map.
