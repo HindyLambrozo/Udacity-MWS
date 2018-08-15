@@ -1,36 +1,15 @@
-# MWS Project 3 - Performant Web Apps
+# mws-stage-1
+It is a restaurant review website developed usinn html,css,js and ajax.It is a mobile-ready web application with offline availability , accessibilty and dynamic design .
 
-## Goal of the Project
-In project 3 we'll add a responsive form to allow users to create their own reviews. If the app is offline, your form will defer updating to the remote database until a connection is established. Users are now also able to mark a restaurant as a favorite. Finally, the site will be optimized to meet even stricter performance benchmarks than the previous project, these tests are done using [Lighthouse](https://developers.google.com/web/tools/lighthouse/).
+MWS-restaurant-stage-1 was reused to make this client server
 
-A [Node development server](https://github.com/udacity/mws-restaurant-stage-3) and API is already provided to make JSON requests to the server.
+# Update
 
-## Project Requirements
-* Add a responsive form to allow users to create their own reviews.
-* Add functionality to defer updates until the user is connected.
-* Users are able to mark a restaurant as a favorite.
-* Minimum performance requirements.
-  * Performance: >90
-  * Progressive Web App: >90
-  * Accessibility: >90
+For your convenience we have added start.bat and start2.bat .Start.bat start the server using python3 an start2.bat start the server using python2 so make sure you have python installed.
 
-## Official Style Guide
-This code adheres to the [Udacity Frontend Nanodegree Style Guide](https://udacity.github.io/frontend-nanodegree-styleguide/).
+## How to run
 
-## Getting Started
-Make sure the [Node development server](https://github.com/udacity/mws-restaurant-stage-3) is running.
+1. In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000`.For Python 3.x, you can use `python3 -m http.server 8000`.
 
-Clone or download the repository.
-Start up an HTTP server, you can use Python or Chrome extension [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en).
+2. With your server running, visit the site: `http://localhost:8000` to use the site
 
-Example using Python:
-
-```
-pipenv --python 3.6
-pipenv run python -m http.server 8887
-```
-
-Open url [localhost:8887](localhost:8887) in your favorite browser.
-
-## Where can I learn more?
-Follow the awesome [Udacity Mobile Web Specialist Nanodegree](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024)!
