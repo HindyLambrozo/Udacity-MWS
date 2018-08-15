@@ -1,14 +1,22 @@
 self.importScripts("/js/idb.js");
 var cacheName = 'restaurant-review-App';
 
-var filesToCache = [
-    '/',
-    '/index.html',
-    '/restaurant.html',
-    '/js/main.js',
-    '/css/styles.css'
-  ];
 
+var filesToCache = [
+        '/',
+        '/index.html',
+        '/restaurant.html',
+        '/js/main.js',
+        '/css/styles.css',
+        'manifest.json',
+        '/css/responsiveness.css',
+        '/img/2.jpg',
+        '/img/1.jpg',
+        '/js/idb.js',
+        '/js/dbhelper.js',
+        '/js/lazyload.min.js',
+  ];
+  
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
   e.waitUntil(
@@ -18,6 +26,8 @@ self.addEventListener('install', function(e) {
     })
   );
 });
+
+        
 
 self.addEventListener('activate', function(e) {
     console.log('[ServiceWorker] Activate');
