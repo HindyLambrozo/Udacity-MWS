@@ -17,7 +17,7 @@
   <link async defer rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
   <link async defer rel="stylesheet" href="css/styles.css" type="text/css">
   <link async defer rel="stylesheet" href="css/responsiveness.css" type="text/css">
- <link async defer rel="manifest" href="/manifest.json">
+ <link async rel="manifest" href="/manifest.json">
   <title>Restaurant Info</title>
 </head>
 
@@ -108,10 +108,11 @@
   <script async defer type="text/javascript" src="js/lazyload.min.js" async=""></script>
   <script async defer type="text/javascript" src="js/idb.js"></script>
   <!-- Database helpers -->
-  <script async defer type="text/javascript" src="js/dbhelper.js"></script>
+  <script async defer type="application/javascript" src="js/dbhelper.js"></script>
   <!-- Main javascript file -->
   <script async defer type="text/javascript" src="js/restaurant_info.js"></script>
-   <script async defer type="text/javascript" charset="utf-8" src="js/main.js"></script>
+   <script async defer type="application/javascript" charset="utf-8" src="js/main.js"></script>
+
   <!-- Google Maps -->
    <!-- scripts - Google Maps -->
   <script async defer type="text/javascript">
@@ -133,7 +134,7 @@ var showRestaurantsMap = () => {
 }
 </script>
 
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMK8l0cfMNFWhyoZYdELE_g-hKtZyvBTU&libraries=places&callback=initMap"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBC7ADnZ41aX_6KUtqTqnnwcHHiL7j-uEg&libraries=places&callback=initMap"></script>
   <!-- End scripts -->
 
 </body>

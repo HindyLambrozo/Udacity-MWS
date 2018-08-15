@@ -1,7 +1,6 @@
 self.importScripts("/js/idb.js");
 var cacheName = 'restaurant-review-App';
 
-
 var filesToCache = [
         '/',
         '/index.html',
@@ -17,6 +16,7 @@ var filesToCache = [
         '/js/lazyload.min.js',
   ];
   
+
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
   e.waitUntil(
@@ -26,8 +26,6 @@ self.addEventListener('install', function(e) {
     })
   );
 });
-
-        
 
 self.addEventListener('activate', function(e) {
     console.log('[ServiceWorker] Activate');
@@ -61,7 +59,7 @@ self.addEventListener('activate', function(e) {
           console.log(err, 'error syncing');
         })
       );
-	  } else if (e.tag === 'favorite') {
+    } else if (e.tag === 'favorite') {
     e.waitUntil(
       sendFavorites().then(() => {
         console.log('favorites synced');
