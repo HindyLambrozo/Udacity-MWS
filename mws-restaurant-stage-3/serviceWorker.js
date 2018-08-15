@@ -6,14 +6,14 @@ var filesToCache = [
         '/',
         '/index.html',
         '/restaurant.html',
-        '/js/main.js',
+        '/js/main.min.js',
         '/css/styles.css',
         'manifest.json',
         '/css/responsiveness.css',
         '/img/2.jpg',
         '/img/1.jpg',
-        '/js/idb.js',
-        '/js/dbhelper.js',
+        '/js/idb.min.js',
+        '/js/dbhelper.min.js',
         '/js/lazyload.min.js',
   ];
   
